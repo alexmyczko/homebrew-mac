@@ -1,5 +1,4 @@
 # homebrew-mac
-home brew taps
 
 `brew tap alexmyczko/mac`
 
