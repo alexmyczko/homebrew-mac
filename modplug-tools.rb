@@ -7,6 +7,7 @@ class ModplugTools < Formula
 
   depends_on "cmake" => :build
   depends_on "libmodplug"
+  depends_on "libao"
 
   def install
     system "cmake", "."
