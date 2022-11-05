@@ -13,6 +13,14 @@ class Ruptime < Formula
   def install
     bin.install "ruptime"
     bin.install "ruptimed"
+    bin.install_symlink "ruptime" => "rsw"
+    bin.install_symlink "ruptime" => "rhw"
+    bin.install_symlink "ruptime" => "runame"
+    bin.install_symlink "ruptime" => "rbench"
+    bin.install_symlink "ruptime" => "rboot"
+    bin.install_symlink "ruptime" => "rdisk"
+    bin.install_symlink "ruptime" => "rload"
+    bin.install_symlink "ruptime" => "rnet"
     man1.install "man/ruptime.1"
     man8.install "man/ruptimed.8"
   end
