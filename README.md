@@ -13,6 +13,14 @@ Now you can install
 - Casks/flying-toasters      Recreation of AfterDarks 2.0 Flying Toasters screensaver            
 ```
 
+# Creating
+
+`brew create url-to-your-source-tarball`
+
+# Testing
+
+`brew reinstall --build-from-source --verbose --interactive ./your.rb`
+
 # Updating above list
 
 `find . -name "*.rb" |sort -r | sed s,./,-\ ,1 | sed 's,.rb,,g' |while read a b; do echo "$a $b $(grep desc $b.rb)"|sed 's,desc,,g'; done |column -s \" -t >> README.md`
