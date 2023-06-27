@@ -21,6 +21,8 @@ class Ruptime < Formula
     bin.install_symlink "ruptime" => "rdisk"
     bin.install_symlink "ruptime" => "rload"
     bin.install_symlink "ruptime" => "rnet"
+    bin.install_symlink "ruptime" => "rac"
+    bin.install_symlink "ruptime" => "rwho"
     man1.install "man/ruptime.1"
     man8.install "man/ruptimed.8"
   end
