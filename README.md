@@ -22,6 +22,12 @@ Now you can install
 
 `brew reinstall --build-from-source --verbose --interactive ./your.rb`
 
+# Wishlist
+```
+- nvtop
+- merecat
+```
+
 # Updating above list
 
 `find . -name "*.rb" |sort -r | sed s,./,-\ ,1 | sed 's,.rb,,g' |while read a b; do echo "$a $b $(grep desc $b.rb)"|sed 's,desc,,g'; done |column -s \" -t >> README.md`
