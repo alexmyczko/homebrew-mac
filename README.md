@@ -25,7 +25,7 @@ Now you can install
 # Wishlist
 ```
 - nvtop
-- merecat
+- nweb
 - yaku-ns
 ```
 
