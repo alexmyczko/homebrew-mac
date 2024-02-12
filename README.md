@@ -26,6 +26,7 @@ Now you can install
 ```
 - nvtop
 - merecat
+- yaku-ns
 ```
 
 # Updating above list
