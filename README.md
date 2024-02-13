@@ -7,7 +7,8 @@ Now you can install
 - modplug-tools              Music player based on libopenmpt/modplug for the command-line   
 - tcputils                   Utilities for TCP programming in shell-scripts
 - ruptime                    poor man’s ruptime
-- iselect                    Interactive line selection tool                                     
+- iselect                    Interactive line selection tool
+- nvtop                      Interactive GPU process monitor
 - form                       The FORM project for symbolic manipulation of very big expressions  
 - Casks/pt2-clone            Music tracker clone of ProTracker 2 for modern computers            
 - Casks/ft2-clone            Music tracker clone of Fasttracker II for modern computers          
