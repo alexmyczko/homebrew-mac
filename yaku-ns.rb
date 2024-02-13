@@ -14,7 +14,8 @@ class YakuNs < Formula
     system "make"
     bin.install "yaku-ns"
     bin.install "yaku-getzone"
-#    man1.install "yaku-ns.1"
+    man1.install "Documentation/yaku-ns.1"
+    man1.install "Documentation/yaku-getzone.1"
   end
 
   test do
