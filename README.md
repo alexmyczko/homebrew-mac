@@ -16,7 +16,7 @@ Now you can install
 
 # Creating
 
-`brew create url-to-your-source-tarball`
+`brew create url-to-your-source-tarball --set-name name`
 
 # Updating
 
