@@ -18,6 +18,12 @@ Now you can install
 
 `brew create url-to-your-source-tarball`
 
+# Updating
+
+`brew edit ./your.rb`
+
+`brew fetch --cask ./your.rb`
+
 # Testing
 
 `brew reinstall --build-from-source --verbose --interactive ./your.rb`
