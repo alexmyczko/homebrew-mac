@@ -9,7 +9,8 @@ Now you can install
 - ruptime                    poor man’s ruptime
 - iselect                    Interactive line selection tool
 - nvtop                      Interactive GPU process monitor
-- form                       The FORM project for symbolic manipulation of very big expressions  
+- form                       The FORM project for symbolic manipulation of very big expressions
+- yaku-ns                    Small footprint, trivial to configure, DNS server
 - Casks/pt2-clone            Music tracker clone of ProTracker 2 for modern computers            
 - Casks/ft2-clone            Music tracker clone of Fasttracker II for modern computers          
 - Casks/flying-toasters      Recreation of AfterDarks 2.0 Flying Toasters screensaver            
@@ -32,7 +33,6 @@ Now you can install
 # Wishlist
 ```
 - nweb
-- yaku-ns
 ```
 
 # Updating above list
