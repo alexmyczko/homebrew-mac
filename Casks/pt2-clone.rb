@@ -1,6 +1,6 @@
 cask "pt2-clone" do
-  version "1.39"
-  sha256 "4292d3bd65155405d512ed9c112b8fe29326c84c6dcc2d49e31235ba12a662ab"
+  version "1.66"
+  sha256 "8b046008d55cc8d4a56b56fb2356e53d89ef257640ad0f6ebbe5a6d605f40e04"
 
   url "https://16-bits.org/pt2-clone-v#{version}-macos.zip"
   name "pt2-clone"
@@ -9,3 +9,4 @@ cask "pt2-clone" do
 
   app "pt2-clone-macos"
 end
+
