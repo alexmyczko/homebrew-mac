@@ -30,7 +30,6 @@ Now you can install
 
 # Wishlist
 ```
-- nvtop
 - nweb
 - yaku-ns
 ```
