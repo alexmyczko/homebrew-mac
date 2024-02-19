@@ -12,7 +12,8 @@ class Nvtop < Formula
     system "cmake", "."
     system "make"
     bin.install "src/nvtop"
-    man1.install "manpage/nvtop"
+    system "mv", "manpage/nvtop", "manpage/nvtop.1"
+    man1.install "manpage/nvtop.1"
   end
 
   test do
