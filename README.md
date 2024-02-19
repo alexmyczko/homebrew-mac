@@ -30,6 +30,10 @@ Now you can install
 
 `brew reinstall --build-from-source --verbose --interactive ./your.rb`
 
+# List files of a package
+
+`brew list package`
+
 # Wishlist
 ```
 - nweb
