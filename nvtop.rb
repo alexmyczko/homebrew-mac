@@ -6,6 +6,7 @@ class Nvtop < Formula
   license "GPL-3.0-or-later"
 
   depends_on "cmake" => :build
+  depends_on "pkgconf" => :build
 
   def install
     system "cmake", "."
