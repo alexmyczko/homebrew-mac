@@ -1,8 +1,8 @@
 class Ruptime < Formula
   desc "poor man’s ruptime"
   homepage "https://wedonthaveaprivacyproblem.com"
-  url "https://github.com/alexmyczko/ruptime/archive/refs/tags/1.6.tar.gz"
-  sha256 "9a82779bc0b3eefb07ec25019f3377c8e42a62627226347b471831b7b8c52f7c"
+  url "https://github.com/alexmyczko/ruptime/archive/refs/tags/1.8.tar.gz"
+  sha256 "c7115c34e11d79d1d0e966516818f3e5f7a0417aadb6cdddfb415cb103f688eb"
   license "AGPL-3.0"
 
   depends_on "xz"
