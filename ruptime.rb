@@ -3,7 +3,7 @@ class Ruptime < Formula
   homepage "https://wedonthaveaprivacyproblem.com"
   url "https://github.com/alexmyczko/ruptime/archive/refs/tags/1.8.tar.gz"
   sha256 "c7115c34e11d79d1d0e966516818f3e5f7a0417aadb6cdddfb415cb103f688eb"
-  license "AGPL-3.0"
+  license "AGPL-3.0-or-later"
 
   depends_on "xz"
   depends_on "memtester"
