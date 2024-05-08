@@ -1,8 +1,8 @@
 class Dwarfs < Formula
   desc "efficient high-compression read-only filesystem"
   homepage "https://github.com/mhx/dwarfs"
-  url "http://bananas.debian.net/macos/dwarfs/dwarfs_0.9.9%2bgit20240508%2bds.orig.tar.xz"
-  sha256 "6aecda2fea611738b8ffbb759ccf690b418eae156e41e71e6f9a14f8815fb0bf"
+  url "http://bananas.debian.net/macos/dwarfs/dwarfs-0.9.9.orig.tar.xz"
+  sha256 "76db2515e12530319a90798703d788e50c3c6eb96a993b8f89e2349e23bd6354"
   license "GPL-3.0"
 
   depends_on "cmake" => :build
