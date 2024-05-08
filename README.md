@@ -9,6 +9,7 @@ Now you can install
 - ruptime                    poor man’s ruptime
 - iselect                    Interactive line selection tool
 - nvtop                      Interactive GPU process monitor
+- dwarfs                     efficient high-compression read-only filesystem
 - form                       The FORM project for symbolic manipulation of very big expressions
 - yaku-ns                    Small footprint, trivial to configure, DNS server
 - Casks/pt2-clone            Music tracker clone of ProTracker 2 for modern computers            
