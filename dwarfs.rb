@@ -1,3 +1,5 @@
+require_relative "macfuse"
+
 class Dwarfs < Formula
   desc "efficient high-compression read-only filesystem"
   homepage "https://github.com/mhx/dwarfs"
@@ -28,12 +30,22 @@ class Dwarfs < Formula
   depends_on "utf8cpp" => :build
   depends_on "boost" => :build
   depends_on "zstd" => :build
+  depends_on MacfuseRequirement
 
   def install
     system "cmake", "."
     system "make"
-    #bin.install "src/nvtop"
-    #man1.install "manpage/nvtop" => "nvtop.1"
+    bin.install "dwarfs"
+    bin.install "dwarfsbench"
+    bin.install "dwarfsck"
+    bin.install "dwarfsextract"
+    bin.install "mkdwarfs"
+    # mount.dwarfs symlink to dwarfs
+    man1.install "man1/dwarfs.1" => "dwarfs.1"
+    man1.install "man1/dwarfsck.1" => "dwarfsck.1"
+    man1.install "man1/dwarfsextract.1" => "dwarfsextract.1"
+    man1.install "man1/mkdwarfs.1" => "mkdwarfs.1"
+    man5.install "man5/dwarfs-format.5" => "dwarfs-format.5"
   end
 
   test do
