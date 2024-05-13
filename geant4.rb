@@ -15,7 +15,7 @@ class Geant4 < Formula
   def install
     system "mkdir", "build"
     system "cd", "build"
-    system "cmake", ".."
+    system "cmake", "."
     system "make"
     # -DQt5_DIR=$(brew --prefix qt5)/lib/cmake/Qt5
     # or brew --prefix qt6 / brew --prefix qt
