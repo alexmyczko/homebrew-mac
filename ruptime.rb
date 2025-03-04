@@ -1,6 +1,6 @@
 class Ruptime < Formula
   desc "poor man’s ruptime"
-  homepage "https://wedonthaveaprivacyproblem.com"
+  homepage "http://aiei.ch/ruptime/"
   url "https://github.com/alexmyczko/ruptime/archive/refs/tags/1.8.tar.gz"
   sha256 "c7115c34e11d79d1d0e966516818f3e5f7a0417aadb6cdddfb415cb103f688eb"
   license "AGPL-3.0-or-later"
