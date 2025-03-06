@@ -1,8 +1,8 @@
 class Geant4 < Formula
   desc "toolkit for the simulation of the passage of particles through matter"
   homepage "https://github.com/Geant4/geant4"
-  url "https://github.com/Geant4/geant4/archive/refs/tags/v11.2.1.tar.gz"
-  sha256 "d81e9abc98a1989f989a816c9f66924ab654e2cdc66b655f68a4ab42fafe54fb"
+  url "https://github.com/Geant4/geant4/archive/refs/tags/v11.3.0.tar.gz"
+  sha256 "a98340e3015d2e69ae956aa29d33dfc43c8cb3e0561ee2530b76dc1c79cd8698"
   license "GPL-3.0"
 
   depends_on "cmake" => :build
