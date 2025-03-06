@@ -19,7 +19,7 @@ class Geant4 < Formula
     # -DQt5_DIR=$(brew --prefix qt5)/lib/cmake/Qt5
     # or brew --prefix qt6 / brew --prefix qt
     #bin.install "yes"
-    man1.install "man1/yes.1" => "yes.1"
+    #man1.install "man1/yes.1" => "yes.1"
   end
 
   test do
