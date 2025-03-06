@@ -13,10 +13,9 @@ class Geant4 < Formula
   # qt5 or 6?
 
   def install
-    system "mkdir", "build"
-    system "cd", "build"
-    system "cmake", ".."
-    system "make"
+    system "cmake", "-S", ".", "-B", "build", *std_cmake_args
+    system "cmake", "--build", "build"
+    system "cmake", "--install", "build"
     # -DQt5_DIR=$(brew --prefix qt5)/lib/cmake/Qt5
     # or brew --prefix qt6 / brew --prefix qt
     #bin.install "yes"
