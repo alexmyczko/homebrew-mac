@@ -5,6 +5,7 @@ class WipeoutRewrite < Formula
   sha256 "535ed89bad1e525407ffa73fbd252644d5b9a848eddd0b0af98a4c838c69998c"
   license "PUBLIC-DOMAIN"
   # get the data from https://phoboslab.org/files/wipeout-data-v01.zip
+  # get gcdb from https://github.com/mdqinc/SDL_GameControllerDB/blob/master/gamecontrollerdb.txt
 
   depends_on "cmake" => :build
   depends_on "sdl2" => :build
